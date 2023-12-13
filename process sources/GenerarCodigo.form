@@ -1,0 +1,35 @@
+{
+  "components": [
+    {
+      "text": "# Generar Codigo Manual",
+      "type": "text",
+      "layout": {
+        "row": "Row_1jzqr9r",
+        "columns": null
+      },
+      "id": "Field_06vx1br"
+    },
+    {
+      "label": "Ingrese el codigo de la DIAN",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_07buvra",
+        "columns": null
+      },
+      "id": "Field_0dllyf9",
+      "key": "DIANCode",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "GenerarCodigo",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

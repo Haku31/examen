@@ -42,11 +42,14 @@
       "label": "Edad",
       "type": "number",
       "layout": {
-        "row": "Row_0grlt07",
-        "columns": 3
+        "row": "Row_12w7nih",
+        "columns": null
       },
-      "id": "Field_1i4g1ox",
-      "key": "number_wv0k0s"
+      "id": "Field_02ebge8",
+      "key": "Edad",
+      "validate": {
+        "required": true
+      }
     },
     {
       "values": [
@@ -130,9 +133,9 @@
   "id": "SolicitudAfiliacion",
   "exporter": {
     "name": "Camunda Modeler",
-    "version": "5.18.0"
+    "version": "5.10.0"
   },
   "executionPlatform": "Camunda Platform",
   "executionPlatformVersion": "7.19.0",
-  "schemaVersion": 13
+  "schemaVersion": 8
 }

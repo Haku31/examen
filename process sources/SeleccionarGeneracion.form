@@ -1,0 +1,42 @@
+{
+  "components": [
+    {
+      "text": "# Seleccionar el tipo de generacion",
+      "type": "text",
+      "layout": {
+        "row": "Row_097efjg",
+        "columns": null
+      },
+      "id": "Field_0gbfz0t"
+    },
+    {
+      "values": [
+        {
+          "label": "Asesor",
+          "value": "Asesor"
+        },
+        {
+          "label": "DIAN",
+          "value": "DIAN"
+        }
+      ],
+      "label": "Seleccione el tipo de generacion de codigo",
+      "type": "radio",
+      "layout": {
+        "row": "Row_1ks8xg9",
+        "columns": null
+      },
+      "id": "Field_0iohc30",
+      "key": "CodigoGenerar"
+    }
+  ],
+  "type": "default",
+  "id": "SeleccionarGeneracion",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

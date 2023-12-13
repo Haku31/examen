@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "text": "# Visualizar Codigo",
+      "type": "text",
+      "layout": {
+        "row": "Row_0vaffho",
+        "columns": null
+      },
+      "id": "Field_1ms5c9u"
+    },
+    {
+      "label": "Visualizar Codigo",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0bt6lfc",
+        "columns": null
+      },
+      "id": "Field_033knmn",
+      "key": "DIANCode",
+      "disabled": true
+    }
+  ],
+  "type": "default",
+  "id": "VisualizarCodigo",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

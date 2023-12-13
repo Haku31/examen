@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "text": "# Registro de Afiliacion",
+      "text": "# Valides de Solicitud",
       "type": "text",
       "layout": {
         "row": "Row_0arjxw9",
@@ -20,8 +20,9 @@
       "key": "Nombre",
       "description": "No ingrese numeros",
       "validate": {
-        "required": true
-      }
+        "required": false
+      },
+      "disabled": true
     },
     {
       "label": "Ingrese numero de Cedula",
@@ -36,17 +37,19 @@
       "validate": {
         "required": true,
         "min": 1
-      }
+      },
+      "disabled": true
     },
     {
       "label": "Edad",
       "type": "number",
       "layout": {
-        "row": "Row_0grlt07",
-        "columns": 3
+        "row": "Row_0a750t9",
+        "columns": null
       },
-      "id": "Field_1i4g1ox",
-      "key": "number_wv0k0s"
+      "id": "Field_01g44qx",
+      "key": "Edad",
+      "disabled": true
     },
     {
       "values": [
@@ -68,8 +71,9 @@
       "id": "Field_1quefpq",
       "key": "EstadoCivil",
       "validate": {
-        "required": true
-      }
+        "required": false
+      },
+      "disabled": true
     },
     {
       "values": [
@@ -99,40 +103,41 @@
       "id": "Field_1p072h7",
       "key": "EPS",
       "validate": {
-        "required": true
-      }
+        "required": false
+      },
+      "disabled": true
     },
     {
       "values": [
         {
-          "label": "Contributivo",
-          "value": "Contributivo"
+          "label": "Si",
+          "value": "Si"
         },
         {
-          "label": "Subsidiado",
-          "value": "Subsidiado"
+          "label": "No",
+          "value": "No"
         }
       ],
-      "label": "Tipo de regimen",
+      "label": "Es valida la solicitud?",
       "type": "radio",
       "layout": {
-        "row": "Row_1c6cbug",
+        "row": "Row_1fy4hng",
         "columns": null
       },
-      "id": "Field_0d2395m",
-      "key": "Regimen",
+      "id": "Field_1lp62rj",
+      "key": "Valides",
       "validate": {
         "required": true
       }
     }
   ],
   "type": "default",
-  "id": "SolicitudAfiliacion",
+  "id": "ValidarSolicitud",
   "exporter": {
     "name": "Camunda Modeler",
-    "version": "5.18.0"
+    "version": "5.10.0"
   },
   "executionPlatform": "Camunda Platform",
   "executionPlatformVersion": "7.19.0",
-  "schemaVersion": 13
+  "schemaVersion": 8
 }
